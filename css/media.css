@@ -1,0 +1,407 @@
+/* -------------------------max-width: 950px------------------------ */
+@media (max-width: 950px) {
+    .graphic {
+        display: block;
+    }
+    .graphic__design-circles {
+        padding: 0 5%;
+    }
+    .design-circles__item {
+        display: block;
+    }
+    .circles {
+        width: 100%;
+    }
+    .design {
+        text-align: center;
+        width: 100%;
+    }
+    .img-btn-new {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /* .diagram {    
+        width: 80px; 
+        height: 80px;
+        font: 30px/72px Times, serif;;
+    } */
+    .details-new {
+        margin: 0 10px 20px;
+    }
+    .portfolio-works__hover h4::after {
+        margin: 5px 0;
+    }
+    .icon-img {
+        margin-top: 0px;
+    }
+    .portfolio-works__hover p {
+        font-size: 14px;
+    }
+}
+
+/* -------------------------max-width: 767px------------------------ */
+@media (max-width: 767px) {
+    .header_body {
+        height: 50px;
+    }
+    .header_logo {
+        height: 58px;
+    }
+    .header_burger {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+    }
+    .header_burger span {
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    }
+    .header_burger::before,
+    .header_burger::after {
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+    .header_burger::before {
+        top: 0;
+    }
+    .header_burger::after {
+        bottom: 0;
+    }
+    .header_burger.active span {
+        transform: scale(0);
+    }
+    .header_burger.active::before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header_burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header_menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        transition: all 0.3s ease 0s;
+        padding: 70px 10px 20px 10px;
+    }
+    .header_menu.active {
+        top: 0;
+    }
+    .header_list {
+        display: block;
+        background-color: teal;
+        max-width: 300px;
+        padding: 10px;
+        opacity: 0.95;
+    }
+    .header_list li {
+        margin: 0 0 20px 10px;
+    }
+    .header_list li:last-child {
+        margin: 0 0 0 10px;
+    }
+    .header_link {
+        font-size: 20px;
+    }
+    .portfolio-works__hover {
+        display: none;
+    }
+    h3 {
+        padding-top: 30px;
+        margin-bottom: 10px;
+    }
+    .hey-img {
+        margin-top: 30px;
+        max-height: 215px;
+    }
+    .details {
+        margin: 25px 10px;
+    }
+    .img__details {
+        margin: 25px 15px;
+    }
+    .submit-container__text p {
+        font-size: 14px;
+    }
+    .picture7 {
+        padding: 10% 5%;
+        text-align: center;
+    }
+    .picture7 h4::after {
+        margin: 15px auto;
+    }
+    .icon-img {
+        margin-top: 10%;
+    }
+    .icon-img {
+        justify-content: center;
+    }
+    .all-works {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .title-news p {
+        margin-bottom: 50px;
+    }
+}
+
+/* -------------------------max-width: 650px------------------------ */
+@media (max-width: 650px) {
+    .all-works-itens::after {
+        margin-top: 7px;
+    }
+    .team-slider__item img {
+        width: 150px;
+        height: 200px;
+    }
+    .team-slider__info p {
+        margin-bottom: 15px;
+    }
+    .director {
+        margin-bottom: 15px;
+    }
+    .schedule__column {
+        max-width: 250px;
+        margin-bottom: 15px;
+        letter-spacing: 1px;
+    }
+    .team-slider__info {
+        margin-left: 5px;
+    }
+    .team-slider__info p {
+        margin-bottom: 15px;
+    }
+    .director {
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+}
+
+/* -------------------------max-width: 600px------------------------ */
+@media (max-width: 600px) {
+    .bo_monitor {
+        margin: 50px 5px 0 5px;
+    }
+    .bo_monitor img {
+        margin-top: -100px;
+    }
+    .team-title {
+        margin-bottom: 20px;
+    }
+    .section-beach {
+        height: 490px;
+    }
+    .section-bouncy {
+        padding: 30px 0;
+    }
+    .read-more {
+        margin-top: 15px;
+    }
+    .submit-container__text {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .submit-container__text p {
+        margin-bottom: 10px;
+    }
+    .section-details {
+        padding-bottom: 25px;
+    }
+    .graphic {
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .work-img {
+        height: 200px;
+        margin-top: 20px;
+    }
+    .impres {
+        width: 100%;
+    }
+    .impres h3 {
+        color: #fff;
+        padding-top: 50px;
+    }
+    .test {
+        padding-bottom: 30px;
+    }
+    .text {
+        flex-direction: column;
+    }
+    .conttainer-bouncy {
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .portfolio-works {
+        display: grid;
+        grid-template-rows: repeat(8, 85px);
+        grid-template-columns: repeat(2, 49%);
+        grid-gap: 10px;
+    }
+    .section-portfolio {
+        padding-bottom: 30px;
+    }
+    .testi-s {
+        padding-bottom: 25px;
+    }
+    .testimonials-title h3 {
+        margin: 0;
+        padding: 40px 0 20px;
+    }
+    .testimonials-title p {
+        margin-bottom: 30px;
+    }
+    .team-slider__testimonials {
+        padding: 30px 5%;
+    }
+    .testi-s-slider__info p {
+        margin-bottom: 15px;
+    }
+    .team-slider .slick-dots button {
+        margin-top: 20px;
+    }
+    .team-slider {
+        margin-bottom: 25px;
+    }
+    .already-btn {
+        margin-top: 50px;
+    }
+    .team-slider__latest {
+        margin: 0 1% 0 1%;
+    }
+    .team-slider__latest .slick-dots button {
+        margin: 15px;
+    }
+    .section-prise {
+        padding-bottom: 40px;
+    }
+    .title-news p {
+        margin-bottom: 20px;
+    }
+    .prise p {
+        max-width: 480px;
+        margin: 0 auto 30px;
+    }
+    .section-subscribe {
+        padding-bottom: 50px;
+    }
+    .section-contact {
+        padding-bottom: 50px;
+    }
+    .section-form__name {
+        flex-wrap: wrap;
+    }
+    .section-form__name input {
+        width: 100%;
+    }
+    .section-form {
+        padding: 30px 0 30px;
+    }
+    .section-map {
+        height: 300px;
+    }
+    .subscribe-form {
+        margin-top: 20px;
+    }
+    .content_text {
+        padding-top: 100px;
+    }
+    .section-latest {
+        padding-bottom: 30px;
+    }
+    .title-news h3 {
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    .section-footer {
+        text-align: center;
+        padding: 40px 0;
+    }
+}
+
+/* -------------------------max-width: 500px------------------------ */
+@media (max-width: 500px) {
+    .picture7 h4 {
+        font-size: 18px;
+    }
+    .picture7 p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .picture7 h4::after {
+        display: none;
+    }
+    .testi-s-slider__item {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .testi-s-slider__item img {
+        margin-right: 0;
+    }
+    .graphic__design-circles {
+        padding: 0 1%;
+    }.diagram {
+        font-size: 18px;
+    }
+    .circles h6 {
+        font-size: 16px;
+    }
+    .column-price:hover .view__column .view-item2 {
+        opacity: 0;
+    }
+}
+
+/* -------------------------max-width: 400px------------------------ */
+@media (max-width: 400px) {
+    .team-slider__item img {
+        margin: 5px auto;
+    }
+    .team-slider__item {
+        display: flex;
+        flex-direction: column;
+    }
+    .team-slider__info {
+        max-width: none;
+        text-align: center;
+    }
+    .schedule__column {
+        max-width: none;
+        margin-bottom: 10px;
+    }
+    .bo_monitor {
+        display: none;
+    }
+    .conttainer-bouncy {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hey-img {
+        margin: 0 auto;
+    }
+    .read-more {
+        margin: 20px auto;
+    }
+    .img__details {
+        margin: 20px 5px;
+    }
+}
