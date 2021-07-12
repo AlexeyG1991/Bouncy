@@ -137,7 +137,7 @@ button {
 .bouncy {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 15px;
     max-width: 670px;
 }
