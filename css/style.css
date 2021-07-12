@@ -137,7 +137,9 @@ button {
 .bouncy {
     display: flex;
     flex-direction: column;
-    max-width: 470px;
+    justify-content: space-between;
+    margin-right: 15px;
+    max-width: 670px;
 }
 .bouncy h3 {
     padding: 0;
