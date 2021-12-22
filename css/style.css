@@ -1132,7 +1132,8 @@ span.bl {
     text-transform: uppercase;
 }
 .contact__column:hover {
-    box-shadow:  5px 5px 10px 10px rgba(63, 60, 60, 0.2);
+    cursor: pointer;
+    box-shadow:  5px 15px 20px 10px rgba(63, 60, 60, 0.2);
     transition: all 0.3s ease 0s;
 }
 .contact-item1 {
