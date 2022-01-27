@@ -1,5 +1,8 @@
 /* -------------------------max-width: 950px------------------------ */
 @media (max-width: 950px) {
+    .header_list li {
+        margin-left: 10px;
+    }
     .graphic {
         display: block;
     }
@@ -21,11 +24,6 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-    /* .diagram {    
-        width: 80px; 
-        height: 80px;
-        font: 30px/72px Times, serif;;
-    } */
     .details-new {
         margin: 0 9px 20px;
     }

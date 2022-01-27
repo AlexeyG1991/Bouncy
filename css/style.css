@@ -72,20 +72,20 @@ button {
 }
 .header_list li {
     list-style: none;
-    margin-left: 30px;
+    margin-left: 15px;
+}
+.header_list li a {
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 3px 15px;
+    transition: all 0.3s ease 0s;
+}
+.header_list li a:hover {
+    border: 1px solid #fff;
 }
 .header_link {
     color: #fff;
     text-decoration: none;
-}
-.header_list li a:hover {
-    border: 1px solid #fff;
-    border-radius: 20px;
-    padding: 3px 15px;
-    margin-left: -16px;
-    margin-right: -16px;
-    text-decoration: none;
-    color: #fff;
 }
 .container {
     max-width: 1180px;
@@ -115,15 +115,19 @@ button {
     border-radius: 50px;
     outline: none !important;
     cursor: pointer;
-}
-.arrow-down:hover {
-    background-color: #056852;
     transition: all 0.3s ease 0s;
 }
+.arrow-down:hover {
+    box-shadow: 0px 0px 3px 3px #19bd9a;
+}
+.arrow-down:active {
+    background-color: #055e4a;
+    box-shadow: 0px 0px 3px 3px #055e4a;
+}
 .arrow-down img {
-    width: 15px;
+    width: 16px;
     height: auto;
-    margin-bottom: -2px;
+    margin: 0 auto -2px;
 }
 /* ------------------------section-bouncy---------------- */
 .section-bouncy {
@@ -154,15 +158,16 @@ button {
     width: 140px;
     height: 38px;
     border: 2px solid #000;
-    border-radius: 20px;
     background: #fff;
+    border-radius: 20px;
     outline: none !important;
     font-size: 16px;
+    transition: all 0.3s ease 0s;
 }
 .read-more:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-    background-blend-mode: darken;
-    transition: all 0.3s ease 0s;
+    border: 2px solid #81868e;
+    background: #81868e;
+    color: #fff;
 }
 .hey-img {
     margin: 0 0 0 auto;
@@ -185,14 +190,22 @@ button {
 }
 .details {
     background: #81868e;
-    border-radius: 50px;
+    border-radius: 50%;
     padding: 15px;
     color: #fff;
     cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+.details:hover,
+.details-new:hover {
+    box-shadow: inset 0px 0px 15px rgba(0,0,0,0.5);
 }
 ._active .details {
     background: #19bd9a;
-    transition: all 0.3s ease 0s;
+}
+._active .details:hover,
+._active.details-new:hover {
+    box-shadow: none;
 }
 ._block,
 ._tab-block,
@@ -350,10 +363,10 @@ span.bl {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all 0.4s ease 0s;
 }
 .details-new._active {
     background: #19bd9a;
-    transition: all 0.3s ease 0s;
 }
 .details-new img {
     width: 30px;
@@ -780,13 +793,13 @@ span.bl {
 .schedule__scale {
     position: relative;
     background-color: #e1e4e9;
-    height: 4px;
+    height: 6px;
     width: 100%;
 }
 .schedule__scale-percent {
     position: absolute;
     background-color: #19bd9a;
-    height: 4px;
+    height: 6px;
 }
 .schedule__scale-percent-1 {
     width: 80%;
@@ -1235,4 +1248,8 @@ span.bl {
     margin: 4px;
     width: 28px;
     height: 28px;
+}
+.arrow-up {
+    margin-top: 20px;
+    transform: rotateX(180deg);
 }
